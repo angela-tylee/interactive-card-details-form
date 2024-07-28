@@ -1,0 +1,66 @@
+@import "./_reset.css";
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/bg-main-desktop.png);
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 70%;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.card {
+  width: 447px;
+  height: 247px;
+  color: #FFFFFF;
+  background-repeat: no-repeat;
+  /* background-size: 100%; */
+
+}
+
+.card-front {
+  box-sizing: border-box;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-front p.card-number {
+  font-size: 24px;
+  letter-spacing: 6px;
+}
+
+.card-front-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+  text-transform: uppercase;
+}
+
+/* .card-front p.card-number {
+  margin-top: 40px;
+}
+
+.card-front p.card-name {
+  margin-top: 32px;
+} */
+
+form {
+  display: flex;
+  flex-direction: column;
+}
